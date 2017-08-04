@@ -1,5 +1,7 @@
 # SudokuSolver
 
+I wrote this on an airplane after being bored and then frustrated that I was having trouble solving the Sudoku problems from the magazine kindly provided in the seat pocket in front of me.
+
 > I decided that backtracking is totally inappropriate for the problem.  Each square must be solved by exclusion rather than by inclusion.  In other words, it's not correct to fill a square with any value that currently satisfies the rules, because you're likely to eventually get stuck.  Rather, you must only fill a square when there is exactly one remaining possible value for that square.
 It actually works out elegantly.  If you ever find a board where *every* square can take more than one value, then the board is under-specified (not enough information).  And if you ever find a board where a square cannot take any value, then the board is over-specified (no solution exists).
 
