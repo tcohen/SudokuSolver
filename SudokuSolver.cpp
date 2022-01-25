@@ -1,4 +1,5 @@
 #include <iostream>
+#include <ctring>
 
 char symbol[] = "123456789";
 
